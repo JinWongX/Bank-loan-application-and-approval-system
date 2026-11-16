@@ -1,0 +1,15 @@
+package com.bank.loan.enums;
+
+public enum ApplicationStatus {
+    SUBMITTED,
+    CREDIT_EVALUATED,
+    MATERIAL_SUPPLEMENT,
+    DUE_DILIGENCE,
+    DUE_DILIGENCE_COMPLETED,
+    PENDING_APPROVAL,
+    APPROVED,
+    REJECTED,
+    CONTRACT_GENERATED,
+    SIGNED,
+    DISBURSED
+}

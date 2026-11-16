@@ -1,0 +1,12 @@
+jwt:
+  secret: k8D6ac2oA2WHnfN24qqrV6ydmTfLNnMr
+
+encryption:
+  aes-key: B7E3UkVfzolyE2bvQ0sIONu0yCPh7pD2
+
+spring:
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data-test.sql
+      mode: always

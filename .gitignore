@@ -1,0 +1,44 @@
+# dependencies / environments
+node_modules/
+venv/
+.venv/
+
+# java build output
+target/
+*.class
+
+# python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# test & coverage artifacts
+.coverage
+htmlcov/
+coverage/
+jacoco.exec
+
+# local test uploads (stay on disk, not in git)
+uploads/
+
+# databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+
+# logs
+*.log
+*.dump
+
+# secrets / env
+.env
+.env.*
+!.env.example
+
+# editor & tool metadata
+.trae/
+.screenshots/
+.idea/
+.vscode/
+.DS_Store
